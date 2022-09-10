@@ -1,0 +1,44 @@
+
+.forms-register{
+    background-image: url("HTML/umat.jpeg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+form .form-label{
+
+    font-size: 25px;
+    color: #006300;
+}
+
+.form-width input{
+    padding: 10px;
+    margin:10px ;
+    border-radius: 5px;
+    border: darkgreen solid 3px;
+    background: #ffffff;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 3px 3px 2px  darkgrey ;
+    color: #000000;
+    font-size: 15px;
+}
+#submitbtn{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+    font-family: "Times New Roman";
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+.form-width input:hover {
+    background-color: lavender;
+    color: black;
+    font-weight: bolder;
+}

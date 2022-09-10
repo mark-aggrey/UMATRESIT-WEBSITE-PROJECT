@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="vi451892ewport" content="width=device-width">
+    <title>UMAT-RESIT</title>
+    <link rel="stylesheet" href="pagestyle.css">
+    <script type="text/javascript" src="javascriptset.js"></script>
+
+</head>
+<body>
+<div id="top-bar">
+
+    <a href="index.html"> <img src="umat-logo.png" alt="umat-logo is placed here." id="umat-logo"></a>
+    <h1 id="umat" class="umat-head"><a href="index.html">UNIVERSITY OF MINES AND TECHNOLOGY (UMaT)</a>  </h1>
+</div>
+<!--NAVIGATION BAR-->
+<div class="menu-bar">
+    <ul>
+        <li ><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Registration</a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="registration.html">Register</a></li>
+                    <li><a href="#">Check Results</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+<!--FORMS-->
+<h2 STYLE="text-align: center; margin-top: 10px; color: #006300">RESIT REGISTRATION </h2>
+<hr>
+<div class="forms-register">
+    <form name="registrationfullform" action="registration.html" onsubmit="return matchpass()">
+             <div class="form-width">
+                <p class="form-label">Name: </p>
+                <input type="text" placeholder="enter your full name" name="name" class="forms"  required="required >
+            </div>
+            <div class="form-width">
+                <p class="form-label">Student ID: </p>
+                <input type="text" placeholder="enter your student id" id="forms"  required="required>
+            </div>
+            <div class="form-width">
+                <p class="form-label">Email: </p>
+                <input type="email" placeholder="enter your email address" name="name" class="forms" required="required">
+            </div>
+
+        <div class="form-width" >
+            <p class="form-label">Password: </p>
+            <input type="password" placeholder="confirm password" name="name" class="forms" required="required" id="password" >
+        </div>
+        <div id="checkbox" >
+         <input type="checkbox" onclick="passwordToggle()" >Show password
+        </div>
+
+        <div class="form-width" id="confirm-password">
+            <p class="form-label">Confirm Password: </p>
+            <input type="password" placeholder="confirm password" name="name" class="forms" required="required" id="confirmpassword">
+        </div>
+        <input type="checkbox" onclick="confirmpasswordToggle()" >Show password
+
+        <div class="form-width">
+            <p class="form-label">Contact: </p>
+            <input type="number" placeholder="enter your contact" name="name" id="forms" required="required">
+        </div>
+        <div class="form-width">
+            <input type="submit" value="Register" id="submitbtn">
+        </div>
+    </form>
+</div>
+<!--footer-->
+<div class="footer">
+</div>
+<!-FOOTER SECTION->
+<div class="footer">
+    <div class="footer-div">
+        <h4>GET IN TOUCH WITH US</h4>
+        <P>For more information, use the following</P>
+        <p>Hotline : +233 3223 20242/20830</p>
+        <p>Email: registrar@umat.edu.gh</p>
+        <p>Postal Box 237, Tarkwa W/R</p>
+    </div>
+    <div class="footer-div">
+        <h4>ADMISSIONS</h4>
+        <P>Visit Admission Website</P>
+        <p>Undergraduate Ghanaian</p>
+        <p>Undergraduate International</p>
+        <p>Postgraduate Ghanaian</p>
+    </div>
+    <div class="footer-div">
+        <h4>FACULTY OF ENG.</h4>
+        <P>Computer Science & Eng.</P>
+        <p>Electrical & Electronics Eng.</p>
+        <p>Renewable Energy & Eng.</p>
+        <p>Mathematical Eng.</p>
+    </div>
+    <div class="footer-div">
+        <h4>SCHOOL OF PETROLEUM</h4>
+        <p>Natural Gas</p>
+        <P>Petroleum Engineering</P>
+        <p>Petroleum Geosciences Eng.</p>
+        <p>Chemical & Petrochemical Eng</p>
+    </div>
+</div>
+<div class="footer-last">
+    <p>Privacy & Cookies  |  Terms & Conditions  |  Accessibility  |  Store Directory  |  About Us</p>
+    <p>All Rights Reserved Copyright &copy 2022 University of Mines and Technology (UMaT). Tarkwa Ghana, Tel: +233 3123 20324/20280</p>
+</div>
+
+<script type="text/javascript" src="scripting.js"></script>
+
+</body>
+</html>
