@@ -1,7 +1,6 @@
 @import "registration.css";
 @import "about.css";
 @import "contact.css";
-
 *{  font-family: Arial;
     margin: 0px;
     padding: 0px;
@@ -158,11 +157,14 @@
     font-size: 11px;
     letter-spacing: 1px;
     padding: 10px;
-
 }
-.umat-head{
-    text-shadow: 1px 1px 1px #a9a9a9,
-    1px 1px 1px #a9a9a9;
+#search-bar{
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: #c76b00 2px solid;
+    text-align: center;
 }
 
 
